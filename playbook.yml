@@ -1,0 +1,5 @@
+---
+- hosts: localhost
+  roles:
+    - {role: 'nvim', tags: 'nvim'}
+    - {role: 'tmux', tags: 'tmux'}
