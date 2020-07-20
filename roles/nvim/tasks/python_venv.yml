@@ -1,4 +1,4 @@
-:q---
+---
 - name: Check if python_venv is present
   stat:
     path: '{{ python_venv_path }}'

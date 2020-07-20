@@ -1,5 +1,9 @@
 ---
 - hosts: localhost
   roles:
-    - {role: 'nvim', tags: 'nvim'}
+    - {role: 'zsh', tags: 'zsh'}
+    - {role: 'python', tags: 'python'}
     - {role: 'tmux', tags: 'tmux'}
+    - {role: 'nvim', tags: 'nvim'}
+   
+    

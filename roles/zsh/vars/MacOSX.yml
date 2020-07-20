@@ -1,0 +1,4 @@
+---
+config_path: ~/.config/zsh
+FZF_BASE: /usr/local/opt/fzf
+ZPLUG_HOME: /usr/local/opt/zplug

@@ -11,6 +11,7 @@
     state: directory
 
 - include: vim_plug.yml
+- include: python_venv.yml
 
 - name: Create directories
   file:

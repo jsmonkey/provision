@@ -1,7 +1,7 @@
 call plug#begin('{{ plug_path }}')
 " General
 Plug 'editorconfig/editorconfig-vim'
-Plug 'dracula/vim'
+Plug 'dracula/vim', { 'as': 'dracula' }
 
 Plug 'vim-scripts/LargeFile'
 
